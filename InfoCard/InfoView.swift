@@ -25,7 +25,7 @@ struct InfoView: View {
     }
 }
 
-struct SwiftUIView_Previews: PreviewProvider {
+struct InfoView_Previews: PreviewProvider {
     static var previews: some View {
         InfoView(text: "hello", imageName: "phone.fill")
             .previewLayout(.sizeThatFits)
